@@ -1,4 +1,4 @@
-import win32file, win32pipe 
+import win32file
 import json
 import struct
 
