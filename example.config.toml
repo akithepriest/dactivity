@@ -1,0 +1,15 @@
+[client]
+client_id="" # Application/Client ID (https://discord.com/developers/applications)
+
+[activity]
+state="" 
+details=""
+time_start=0 # Unix time in seconds, leave it at 0 to set time automatically.
+time_end=0 # Unix time in seconds, leave it at 0 to set time automaticlaly.
+
+[activity-assets]
+large_image="" 
+large_text=""
+
+small_image=""
+small_text=""
