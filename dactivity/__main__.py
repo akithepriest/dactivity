@@ -12,6 +12,7 @@ handshake = {
 
 def start_activity(pipe) -> None:
     payload = activity_payload(config)
+
     send(pipe, 1, payload)
     _, res = read(pipe)
 

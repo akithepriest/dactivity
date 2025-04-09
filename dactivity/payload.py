@@ -20,6 +20,7 @@ def activity_payload(config: Config) -> dict:
         "args": {
             "pid": os.getpid(),
             "activity": {
+                "application_id": config.CLIENT_ID,
                 "state": config.STATE,
                 "details": config.DETAILS,
                 "timestamps": timestamps,
